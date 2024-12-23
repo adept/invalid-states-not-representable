@@ -156,6 +156,7 @@ Can you contribute an implementation in your favourite language? If you can, ple
 
 Fork this project, create `<language>/<your github id>/`, place your implementation there, and submit a PR.
 
-# Test cases or programs that should not compile
+# Should a particular program compile or not?
 
-Look at `python-mockup/failures.py`
+You can treat OCaml implementation in `ocaml/adept` as a reference implementation, and
+test against it.
