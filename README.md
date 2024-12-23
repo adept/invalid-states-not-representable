@@ -43,7 +43,7 @@ class Moonbase:
   def moan(self):
     print (". o O (Ugh! Damn moon! I am too old for this!)")  
   def take_sample(self):
-    print ("MINING REGOLITH")
+    print ("TAKING REGOLITH SAMPLE")
   def empty_pocket(self):
     print ("EMPTYING POCKET")
   def end_day(self):
