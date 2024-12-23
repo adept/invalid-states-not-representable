@@ -147,16 +147,16 @@ class Moonbase:
 Everything on the Moon is expensive, including runtime errors. Can we enforce the rules entirely at the compile time, so that the program that violates one of the rules above simply cannot be written?
 
 Here are the implementations in:
-- OCaml: 1
-- Haskell: 1
+- [OCaml](ocaml/adept)
+- [Haskell](haskell/adept)
 
 # Contribute implementations!
 
 Can you contribute an implementation in your favourite language? If you can, please do! If we already have your favourite language covered, but you feel that you can do better, please contribute alternative implementation.
 
-Fork this project, create `<language>/<your github id>/`, place your implementation there, and submit a PR.
+Fork this project, create `<language>/<your GitHub id>/`, place your implementation there, and submit a PR. If possible, please make sure that your application can be built and run without installing a full toolchain for your language -- Docker is a great help here if it could be used.
 
 # Should a particular program compile or not?
 
 You can treat OCaml implementation in `ocaml/adept` as a reference implementation, and
-test against it.
+test against it. OCaml implementation also includes a non-exhaustive [list of examples that should not compile](ocaml/adept/should_not_compile.ml).
