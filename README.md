@@ -142,6 +142,8 @@ class Moonbase:
 ```
 </details>
 
+If you think that this looks a bit like a state machine, you are right!
+
 # The Problem
 
 Everything on the Moon is expensive, including runtime errors. Can we enforce the rules entirely at the compile time, so that the program that violates one of the rules above simply cannot be written?
@@ -156,7 +158,15 @@ Can you contribute an implementation in your favourite language? If you can, ple
 
 Fork this project, create `<language>/<your GitHub id>/`, place your implementation there, and submit a PR. If possible, please make sure that your application can be built and run without installing a full toolchain for your language -- Docker is a great help here if it could be used.
 
-# Should a particular program compile or not?
+## Can I reframe the problem?
+
+Different languages would demand slightly different formulations of the task. But lets try to keep the common baseline:
+- Your implementation should provide module/library/class Moonbase
+- ... that provides a dozen API functions/methods/.. described above
+- ... that end-users could call in their code in whatever order they see fit
+- ... and incorrect state transitions are rejected at compile time.
+
+## Should a particular program compile or not?
 
 You can treat OCaml implementation in `ocaml/adept` as a reference implementation, and
 test against it. OCaml implementation also includes a non-exhaustive [list of examples that should not compile](ocaml/adept/should_not_compile.ml).
