@@ -1,0 +1,6 @@
+*.o
+*.hi
+*.cmi
+*.cmx
+ocaml/adept/main
+haskell/adept/main
