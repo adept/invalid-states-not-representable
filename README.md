@@ -142,7 +142,7 @@ class Moonbase:
 ```
 </details>
 
-If you think that this looks a bit like a state machine, you are right!
+If you think this looks a bit like a state machine, you are right! However, let's not focus on this too much—this is not about rewriting the problem as a state machine or implementing an equivalent state machine. We are focusing on the users of our API first and foremost, not on its internal implementation.
 
 # The Problem
 
