@@ -151,6 +151,7 @@ Everything on the Moon is expensive, including runtime errors. Can we enforce th
 Here are the implementations in:
 - [OCaml](ocaml/adept)
 - [Haskell](haskell/adept)
+- [Rust](rust/adept)
 
 # Contribute implementations!
 
